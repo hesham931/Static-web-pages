@@ -1,0 +1,262 @@
+*{
+    font-family: 'RocknRoll One', sans-serif;
+    margin:0px;
+    padding:0px;
+    text-transform: capitalize;
+    font-size: 18px;
+ }
+ body{
+    background-color: rgba(183, 247, 247, 0.301);
+ }
+ .arrow{
+     position: fixed;
+     top:600px;
+     margin:10px;
+     visibility: hidden;
+ }
+ .arrowOption{
+    animation: arrow 7s ease 0s 1 normal forwards;
+ }
+ @keyframes arrow{
+     0%{
+         opacity: 0.5;
+     }
+     100%{
+         opacity: 1;
+         visibility: visible;
+     }
+ }
+ .arrow:hover{
+     cursor: pointer;
+     opacity: 0.3;
+ }
+ .top{
+    background-image: url('bg-header-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:200px;
+    background-color: rgba(91, 245, 245, 0.842);
+ }
+ .search{
+     text-align: center;
+ }
+ #searchBar {
+    position: relative;
+    top: -20px;
+    height: 60px;
+    border-radius: 15px;
+    width: 700px;
+    text-align: center;
+    color: rgb(6, 67, 124);
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+}
+.options{
+    background-color: rgba(2, 61, 61, 0.842);
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    margin:auto;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgb(131 130 130), 0 6px 20px 0 rgb(133 131 131);
+    animation: optionshow 2s ease 0s 1 normal forwards;
+}
+.display{
+    display: none;
+}
+.optionHide{
+    animation: optionHide 1s ease 0s 1 normal forwards;
+}
+@keyframes optionHide{
+    0%{
+        width:700px;
+       height:300px;
+       opacity: 1;
+       background-color: rgba(2, 61, 61, 0.842);
+    }
+    100%{
+       width:0px;
+       height:0px;
+       opacity: 0.5;
+       background-color:transparent;
+       visibility: hidden;
+       overflow:hidden
+    }
+}
+.animation{
+    position: relative;
+    animation: moveTheContent 2s ease 0s 1 normal forwards;
+}
+@keyframes optionshow{
+    0%{
+       width:0px;
+       height:0px;
+       opacity: 0.5;
+       background-color:transparent;
+       overflow:hidden
+    }
+    100%{
+        width:700px;
+       height:300px;
+       opacity: 1;
+       background-color: rgba(2, 61, 61, 0.842);
+       overflow-y:scroll
+    }
+}
+@keyframes moveTheContent{
+    0%{
+        top:1000px;
+        opacity: 0.5;
+    }
+    100%{
+        top:0px;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+.options p{
+    margin:40px;
+    cursor: pointer;
+    background-color: rgba(204, 250, 250, 0.966);
+    padding:10px;
+    color:rgba(2, 61, 61, 0.842);
+    border-radius: 20px;
+    width:130px;
+    text-align: center;
+    position: relative;
+    z-index: 300;
+}
+.options p:hover{
+    opacity: 0.5;
+}
+#searchList{
+    height:100px
+}
+#searchList p{
+    display:inline;
+    margin:10px;
+    background-color: rgb(3, 92, 92);
+    color:white;
+    padding:10px;
+    border-radius: 15px;
+}
+img[alt="removeIcon"]{
+    margin-left:10px;
+}
+img[alt="removeIcon"]:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.servicesList{
+    margin:100px
+}
+.servicesList div{
+    background-color: white;
+    padding:20px;
+    border-radius: 15px;
+}
+.topOfList{
+    position: relative;
+    top:-10px;
+    font-size: 16px;
+    color: rgb(3, 151, 107);
+    /*margin:5px*/
+}
+#option1 , #option2 , #option3 , #option4 , #option5{
+    visibility: hidden;
+}
+#option1 , #option2 , #option3 , #option4 , #option5 , #option6 , #option7 , #option8 , #option9 , #option10{
+    display: flex;
+    width:100%;
+    margin-bottom: 50px;
+}
+#option1:active , #option2:active , #option3:active , #option4:active , #option5:active , #option6:active , #option7:active , #option8:active , #option9:active , #option10:active{
+    opacity: 0.7;
+    cursor: pointer;
+}
+#option1:hover , #option2:hover , #option3:hover , #option4:hover , #option5:hover , #option6:hover , #option7:hover , #option8:hover , #option9:hover , #option10:hover{
+    cursor: pointer;
+}
+.feature span{
+    color: rgb(3, 151, 107);
+    background-color: rgba(166, 248, 223, 0.37);
+    border-radius: 5px;
+}
+.svg-inline--fa{
+        font-size: 50px;
+}
+.new , .featured{
+    border-radius: 20px;
+    color:white;
+    font-size: 12px;
+    padding:10px
+}
+.new{
+    background-color: rgb(3, 151, 107)
+}
+.featured{
+    background-color: black
+}
+#endOfOption{
+    font-size: 12px;
+    color:grey
+}
+@media screen and (max-width:991px){
+    .top{
+        height:400px;
+     }
+    body{
+        background-color: rgba(183, 247, 247, 0.521);
+     }
+    *{
+        font-size: 25px;
+    }
+    #searchBar {
+        height: 150px;
+        font-size:30px;
+    }
+    .options{
+        height: 700px !important;
+    }
+    .options p{
+        width:170px;
+    }
+    .arrow{
+        top:1500px;
+    }
+    .svg-inline--fa{
+        font-size: 100px;
+    }
+    #option1 , #option2 , #option3 , #option4 , #option5 , #option6 , #option7 , #option8 , #option9 , #option10{
+        height:700px !important;
+        display:block;
+        margin-bottom: 50px;
+    }
+    .topOfList{
+        font-size: 50px;
+    }
+    img[alt="optionsImage"]{
+        width:300px;
+        height:300px
+    }
+    .new , .featured{
+        border-radius: 20px;
+        color:white;
+        font-size: 20px;
+        padding:14px
+    }
+    #nameOfJob{
+        font-size: 35px;
+    }
+    .servicesList div {
+        padding: 5px;
+        text-align: center;
+    }
+    #endOfOption{
+        font-size: 20px;
+    }
+}

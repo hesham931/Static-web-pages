@@ -1,0 +1,296 @@
+*{
+    font-size: 16px;
+    font-family: 'Sarabun', sans-serif
+}
+body{
+    background-color: white
+}
+.header{
+    padding:0px !important;
+    background-image: url('parallax1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px
+}
+.class-a{
+    margin-right:15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:15px;
+    font-size: 20px
+}
+.class-a:hover{
+    background-color: darkgrey;
+    border-radius:10px;
+    padding:20px
+}
+.header-logo{
+    width: 400px;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 200px !important;
+    font-family: 'Lato', sans-serif;
+    margin:auto;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 2px 2px 2px 2px rgb(48, 41, 41);
+    text-align: center;
+    word-spacing: 10px;
+    color: white;
+    font-weight: bold
+}
+.body{
+    padding:150px;
+    align-content: center
+}
+.body-text p small{
+    width:300px
+}
+.body-text > h3{
+    text-align: center
+}
+.avatar{
+    padding:50px;
+    display:flex;
+    flex-wrap: nowrap
+}
+img[alt = "avatar"]{
+    opacity: 60%;
+}
+img[alt = "avatar"]:hover{
+    opacity: 100%
+}
+.body-progsses{
+    color: #777
+}
+.body-progsses > p{
+    text-align: center;
+    font-size: 20px
+}
+.body-progsses > span > div{
+    margin:40px
+}
+.portfolio{
+    padding:0px
+}
+.numbers{
+    background-color: #616161;
+    padding:30px;
+    color:white;
+    display: flex
+}
+.numbers > p{
+    padding:20px;
+    width:200px;
+    text-align: center;
+    margin-right:auto
+}
+.portfolio-image{
+    background-image: url('parallax2.jpg');
+    height:300px
+}
+.portfolio-image p{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    padding:120px;
+    color:white;
+    font-size: 30px
+}
+.images{
+    margin: auto;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.images h1{
+    color: rgb(114, 112, 112);
+    text-align: center;
+    width: 100%
+}
+.images p{
+    color: darkgrey ;
+    text-align: center
+}
+.images-links{
+    display:flex;
+    flex-wrap: wrap;
+    margin:80px;
+    margin-top:50px;
+    width:100%
+}
+.images-links > a{
+    margin:20px
+}
+.images-links > a:hover{
+    opacity: 70%
+}
+.images-links > a > img{
+    width:200px;
+    height:200px
+}
+.load-more{
+    margin:auto;
+    background-color: darkgrey;
+    border-radius:5px;
+    padding:10px
+}
+.load-more a{
+    text-decoration: none;
+    color: rgb(32, 32, 32)
+}
+.contact-image{
+    background-image: url('parallax3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+    opacity: 60%
+}
+.contact-image p{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    padding:200px;
+    color:white;
+    font-size: 50px;
+    font-weight: bolder;
+    word-spacing: 40px;
+    font-family: "Lato", sans-serif
+}
+.information , .information-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:50px
+}
+.information h1{
+    width:100%;
+    text-align: center;
+    color: slategray
+}
+.information p{
+    text-align: center
+}
+.s-info > span{
+    display: block;
+    line-height: 40px;
+}
+img[alt = "map"]{
+    width:300px;
+    height:300px;
+    margin-right:30px
+}
+input[type="text"]{
+    width:200px
+}
+textarea{
+    display: block;
+    margin:10px;
+    width:300px
+}
+button{
+    width:100px;
+    margin:20px
+}
+.end{
+    background-color: black;
+    color:white;
+    padding:50px;
+}
+.end:hover{
+    opacity: 80%;
+}
+.end > div , .end a{
+    text-align: center;
+    margin:0px !important;
+}
+.social{
+    padding:20px;
+}
+.social > a{
+    color:white;
+    text-decoration: none
+} 
+.hesham{
+    margin :0px !important
+}
+.link{
+    background-color: white;
+    padding:20px;
+    border-radius:10px
+}
+.link-top:hover{
+    text-decoration: none;
+}
+@media screen and (max-width:1250px){
+    img[alt = "avatar"]{
+        width:300px
+    }
+}
+@media screen and (max-width:1030px){
+    .avatar{
+        display: block
+    }
+}
+@media screen and (max-width:1336px){
+    .images-links > a > img{
+        width:150px;
+        height:150px
+    }
+}
+@media screen and (max-width:991px){
+    .responsive{
+        background-color: snow;
+        padding:20px;
+        border-radius:10px;
+    }
+    .responsive-1{
+        padding:15px;
+        border-radius:10px;
+    }
+    .responsive-1:hover{
+        background-color: darkgrey;
+        padding:15px
+    }
+}
+@media screen and (max-width:756px){
+    .images-links{
+        margin:100px 200px 100px 200px;
+    }
+    .body{
+        padding:20px;
+    }
+    .header-logo{
+        width: 300px;
+        font-size: 30px;
+        margin-top:50px !important
+    }
+    .header{
+        padding:0px !important;
+        background-size: 100%
+    }
+    .contact-image{
+        background-size: 100%;
+    }
+    .contact-image p{
+        padding:100px
+    }
+    .numbers{
+        padding:0px
+    }
+    .avatar{
+        padding:0px
+    }
+    .nav{
+        padding:0px !important;
+        margin:0px !important
+    }
+    .home{
+        padding:0px
+    }
+    .numbers > p {
+    padding: 10px;
+    width: 150px;
+    }
+}

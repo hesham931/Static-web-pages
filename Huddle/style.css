@@ -1,0 +1,568 @@
+*{
+    font-size:18px;
+    font-family: 'Cabin', sans-serif
+}
+h1 , span{
+    text-transform:capitalize;
+    font-size:40px;
+    color:rgb(53, 50, 50)
+}
+a{
+    text-decoration: none
+}
+a:active{
+    cursor: progress
+}
+body{
+    background-color: rgb(247, 229, 229);
+    margin:0px;
+}
+.header{
+    /*width:100%;
+    margin:0px;
+    position:fixed !important;
+    bottom:525px;*/
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    animation-name: header;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    padding:10px
+}
+/*@media screen and (min-width:1366px){
+    .header{
+        position:fixed !important;
+        bottom:542px;
+    }
+}*/
+@keyframes header{
+    from{background-color:rgb(245, 169, 169)}
+    to{background-color: white}
+}
+.H_right a{
+    font-family: 'Lobster', cursive;
+    font-size:50px;
+    font-weight:900;
+    color:rgb(53, 50, 50)
+}
+.H_left{
+    position:relative;
+    left:900px;
+    top:5px
+}
+@media screen and (max-width:1215px){
+    .H_left{
+        left:700px;
+    }
+}
+@media screen and (max-width:1015px){
+    .H_left{
+        left:600px;
+    }
+}
+@media screen and (max-width:915px){
+    .H_left{
+        left:300px;
+  }
+}
+.H_left a{
+    border:solid rgb(243, 144, 161);
+    border-width:2px;
+    border-radius:20px;
+    color:rgb(243, 144, 161);
+    padding:5px
+}
+.H_left a:hover{
+    background-color: rgb(243, 144, 161);
+    color:grey
+}
+.body{
+    margin-top:100px;
+    color:rgb(182, 172, 172)
+}
+.intro , .bottom , .design{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin:50px
+}
+.intro p{
+    width:650px
+}
+.bottom a{
+    color:white;
+    background-color: rgb(223, 58, 140);
+    padding:15px;
+    border:solid none;
+    border-radius:25px;
+    box-shadow: 3px 3px 3px 3px rgb(212, 208, 208)    
+}
+.bottom a:hover{
+    background-color: rgb(138, 13, 75)
+}
+/* incommen between phone and labtop design*/
+.design , .design_1{
+    background-color:white;
+    margin:auto;
+    align-content: flex-start
+}
+.top , .design_1 .top{
+    background-color:rgb(6, 29, 78);
+    text-indent:30px;
+    padding:10px;
+    display: flex;
+    flex: nowrap
+}
+.middle > div , .design_1 .middle > div , .text{
+    display: flex;
+    flex-wrap: nowrap
+}
+.design , .design_1{
+    border:solid none;
+    border-radius:20px 20px 30px 30px;
+    box-shadow: 4px 4px 4px 4px rgb(182, 177, 177)
+}
+/* incommen between phone and labtop design*/
+.design{
+    height:700px;
+    width:1000px
+}
+.top{
+    border:solid none;
+    border-radius:20px 20px 0px 0px;
+    height:50px;
+    width:1000px
+}
+.top input{
+    margin:10px
+}
+img[alt = "line"]{
+    color:white;
+    width: 50px;
+    height:50px;
+    margin:auto 0px auto 650px
+}
+.middle{
+    margin:20px
+}
+.middle > div {
+    margin-bottom:50px;
+    margin-right:200px
+}
+img[alt = "circle"]{
+    width:20px;
+    height:20px;
+    margin-right:5px
+}
+
+/*phone design*/
+
+.design_1{
+    height:620px;
+    width:500px;
+    position:relative;
+    left:420px;
+    bottom:550px
+}
+.design_1 .top{
+    height:25px;
+    width:480px
+}
+.design_1 .top input{
+    margin:10px
+}
+input[type = "search"]{
+    height:20px;
+    font-size:13px
+}
+img[alt = "line_1"]{
+    color:white;
+    width: 25px;
+    height:25px;
+    margin:auto 0px auto 250px
+}
+img[alt = "lines_1"]{
+    width:300px
+}
+img[alt = "orange_1"]{
+    width:70px;
+    height:70px
+}
+.design_1 .middle{
+    margin:10px
+}
+.design_1 .middle > div {
+    margin-bottom:25px;
+    margin-right:100px
+}
+.text{
+    justify-content: center;
+    margin-top:-400px
+}
+.text > div {
+    margin:100px
+}
+.grow_togther , .flowing_converstions , .your_users{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0px
+}
+.text_image{
+    margin:50px;
+    display: flex;
+    flex-wrap: nowrap;
+    position:relative;
+    bottom:600px
+}
+.text_image p{
+    margin-right:400px
+}
+.flowing_converstions{
+    margin-top:-400px
+}
+.flowing_converstions p{
+    margin:auto
+}
+img[alt = "flow"]
+{
+    margin:50px;
+    margin-right:150px
+}
+.bottom_1{
+    margin-top:-400px;
+    text-align: center
+}
+.end{
+    display: flex;
+    flex-wrap: nowrap;
+    padding:20px;
+    background-color: rgb(26, 26, 116);
+    color:white
+}
+.end a{
+    color:white;
+    font-weight: bold;
+    font-size:40px
+}
+.end p{
+    width:400px
+}
+.e_nd{
+    margin-right:300px
+}
+.end h1{
+    color:white
+}
+input[type = 'submit']{
+    background-color: greenyellow;
+    padding:5px;
+    border:none;
+    border-radius:5px;
+    margin-left:50px
+}
+.authrized{
+    text-align: center;
+    background-color:  rgb(26, 26, 116);
+    color:white;
+    padding:50px;
+}
+.authrized a{
+    text-decoration: none;
+    color:rgb(54, 54, 236);
+    
+}
+@media screen and (max-width:1350px){
+    *{
+        font-size:20px;
+        font-family: 'Cabin', sans-serif
+    }
+    h1 , span{
+        text-transform:capitalize;
+        font-size:45px;
+        color:rgb(53, 50, 50)
+    }
+    .design{
+        height:600px;
+        width:900px
+    }
+    .top{
+        height:40px;
+        width:900px
+    }
+    img[alt = "lines"]{
+        width:400px
+    }
+    img[alt = "orange"]{
+        width:100px;
+        height:100px
+    }
+    /*phone*/
+    .design_1{
+        height:520px;
+        width:400px;
+        bottom:500px
+    }
+    .design_1 .top{
+        height:25px;
+        width:380px
+    }
+    img[alt = "line_1"]{
+        margin:auto 0px auto 180px
+    }
+    img[alt = "lines_1"]{
+        width:200px
+    }
+    img[alt = "orange_1"]{
+        width:50px;
+        height:50px
+    }
+    .design_1 .middle{
+        margin:10px
+    }
+    .design_1 .middle > div {
+        margin-bottom:25px;
+        margin-right:100px
+    }
+    .e_nd{
+        margin-right:250px
+    }
+}
+@media screen and (max-width:1250px){
+    *{
+        font-size:25px;
+        font-family: 'Cabin', sans-serif
+    }
+    h1 , span{
+        text-transform:capitalize;
+        font-size:50px;
+        color:rgb(53, 50, 50)
+    }
+    .design{
+        height:500px;
+        width:800px
+    }
+    .top{
+        height:40px;
+        width:800px
+    }
+    img[alt = "lines"]{
+        width:300px
+    }
+    img[alt = "orange"]{
+        width:80px;
+        height:80px
+    }
+    img[alt = "line"]{
+        margin:auto 0px auto 550px
+    }
+    /*phone*/
+    .design_1{
+        height:500px;
+        width:350px;
+        left:320px;
+        bottom:400px
+    }
+    .design_1 .top{
+        height:25px;
+        width:330px
+    }
+    img[alt = "line_1"]{
+        margin:auto 0px auto 130px
+    }
+    img[alt = "grow_togther"]{
+        margin-right:10%
+    }
+    .e_nd{
+        margin-right:230px
+    }
+}
+@media screen and (max-width:1070px){
+    *{
+        font-size:25px;
+        font-family: 'Cabin', sans-serif
+    }
+    h1 , span{
+        text-transform:capitalize;
+        font-size:50px;
+        color:rgb(53, 50, 50)
+    }
+    img[alt = "grow_togther"]{
+        margin-right:15%
+    }
+    .e_nd{
+        margin-right:200px
+    }
+}
+@media screen and (max-width:1020px){
+    *{
+        font-size:25px;
+        font-family: 'Cabin', sans-serif
+    }
+    h1 , span{
+        text-transform:capitalize;
+        font-size:54px;
+        color:rgb(53, 50, 50)
+    }
+    img[alt = "grow_togther"]{
+        margin-right:20%
+    }
+    .e_nd{
+        margin-right:170px
+    }
+}
+@media screen and (max-width:990px){
+    *{
+        font-size:25px;
+        font-family: 'Cabin', sans-serif
+    }
+    h1 , span{
+        text-transform:capitalize;
+        font-size:55px;
+        color:rgb(53, 50, 50)
+    }
+    .design{
+        height:500px;
+        width:700px
+    }
+    .top{
+        height:30px;
+        width:680px
+    }
+    img[alt = "lines"]{
+        width:300px
+    }
+    img[alt = "orange"]{
+        width:70px;
+        height:70px
+    }
+    img[alt = "line"]{
+        margin:auto 0px auto 400px
+    }
+    /*phone*/
+    .design_1{
+        height:450px;
+        width:300px;
+        bottom:400px
+    }
+    .design_1 .top{
+        height:20px;
+        width:280px
+    }
+    img[alt = "line_1"]{
+        margin:auto 0px auto 70px
+    }
+    img[alt = "lines_1"]{
+        width:150px
+    }
+    img[alt = "orange_1"]{
+        width:50px;
+        height:50px
+    }
+    .design_1 .middle{
+        margin:10px
+    }
+    .design_1 .middle > div {
+        margin-bottom:25px;
+        margin-right:100px
+    }
+    img[alt = "grow_togther"]{
+        margin-right:25%
+    }
+    .e_nd{
+        margin-right:150px
+    }
+}
+@media screen and (max-width:950px){
+    *{
+        font-size:25px;
+        font-family: 'Cabin', sans-serif
+    }
+    h1 , span{
+        text-transform:capitalize;
+        font-size:55px;
+        color:rgb(53, 50, 50)
+    }
+    .design{
+        height:400px;
+        width:520px
+    }
+    .top{
+        height:30px;
+        width:500px
+    }
+    img[alt = "lines"]{
+        width:150px
+    }
+    img[alt = "orange"]{
+        width:40px;
+        height:50px
+    }
+    img[alt = "line"]{
+        margin:auto 0px auto 260px
+    }
+    /*phone*/
+    .design_1{
+        margin-bottom:50px;
+        height:420px;
+        width:250px;
+        bottom:300px;
+        left:150px
+    }
+    .design_1 .top{
+        height:20px;
+        width:230px
+    }
+    img[alt = "line_1"]{
+        margin:auto 0px auto 30px
+    }
+    img[alt = "lines_1"]{
+        width:150px
+    }
+    img[alt = "orange_1"]{
+        width:50px;
+        height:50px
+    }
+    .design_1 .middle{
+        margin:10px
+    }
+    .design_1 .middle > div {
+        margin-bottom:25px;
+        margin-right:100px
+    }
+    img[alt = "grow_togther"]{
+        margin-right:25%
+    }
+    .text_image{
+        bottom:800px
+    }
+    .e_nd{
+        margin-right:120px
+    }
+    .grow_togther > img {
+        height:500px
+    }
+}
+@media screen and (max-width:925px){
+    img[alt = "grow_togther"]{
+        margin-left:-10%
+    }
+    .e_nd{
+        margin-right:20px
+    }
+}
+@media screen and (max-width:885px){
+    body{
+        overflow: auto;
+    }
+}
+@media screen and (min-width:951px) and (max-width:1019px){
+    .grow_togther > img {
+        height:600px
+    }
+.text_image{
+        bottom:900px
+    }
+}

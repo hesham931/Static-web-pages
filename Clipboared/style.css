@@ -1,0 +1,310 @@
+body{
+    margin:0px;
+    font-size:18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color:hsl(220, 10%, 94%)
+}
+.header{
+    background-image:url('bg-header-desktop.png');
+    height:200px;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center
+}
+.ios_mac , .middle{
+    width:700px;
+    margin:30px auto auto;
+    color:hsl(201, 11%, 66%);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content: flex-start
+}
+.text h1 , .middle h1{
+    color:rgb(68, 64, 64);
+    text-align:center
+}
+.text p{
+    width: 500px;
+    text-align: center
+}
+div.bottom{
+    width:150px;
+    display: flex;
+    justify-content:center
+}
+.ios , .mac{
+    width:150px;
+    padding:20px;
+    border:solid none;
+    border-radius:40px
+}
+.ios{
+    background-color:hsl(171, 66%, 44%);
+    box-shadow: 2px 2px 2px 2px hsl(171, 66%, 83%)
+}
+.mac{
+    background-color:hsl(233, 100%, 69%);
+    box-shadow: 2px 2px 2px 2px hsl(233, 63%, 84%)
+}
+.bottom a{
+    text-decoration: none;
+    color:white
+}
+a:hover{
+    cursor: -moz-grabbing
+}
+a:active{
+    cursor: progress
+}
+.bottom a:first-child{
+    margin-right:60px
+}
+.middle{
+    margin-top:70px
+}
+.middle h5{
+    text-align:center;
+    color:hsl(201, 11%, 66%);
+    margin-bottom:100px
+}
+.detaleis_1 div:first-child{
+    display: flex;
+    flex-wrap:nowrap
+}
+.detaleis_1 div > h4{
+    margin-bottom:60px
+}
+img[alt = "computer_logo"]{
+    width:50%;
+    height:500px;
+    margin-right:60px
+}
+img[alt = "image_devices"]{
+    width:700px;
+    height:500px
+}
+.end , .end_2{
+    background-color:hsl(204, 17%, 88%);
+    color:hsl(202, 67%, 53%);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.end h1 , .end h5{
+    color:rgb(68, 64, 64);
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.end h5{
+    color:hsl(202, 67%, 53%);
+    margin-top:-20px;
+    margin-bottom:100px
+}
+.images {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: left
+}
+.images > div , .logo > div{
+    width:350px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.images h1{
+    text-align:left
+}
+.images h5{
+    margin-left:10px;
+    text-align:center
+}
+.images_1{
+    margin-right:130px
+}
+.images_2{
+    margin-right:130px
+}
+.logo{
+    width:500px;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+}
+.logo > div{
+    margin:50px
+}
+.end div.bottom{
+    width:150px;
+    margin-bottom:100px;
+    display: flex;
+    justify-content:center;
+}
+
+.end_2{
+    background-color: rgb(187, 212, 212);
+    color:white;
+    padding:20px
+}
+img[alt = "logo_end"]{
+    margin-right:200px
+}
+.e_1{
+    width:600px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    margin-right:100px
+}
+.e_1 > div{
+    margin:30px
+}
+.e_1 > div > a{
+    color:white;
+    text-decoration:none
+}
+.e_1 > div > a:hover{
+    color: hsl(201, 11%, 66%);
+}
+.e_2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    align-content: center
+}
+.e_2 > div > a > img {
+    margin:30px
+}
+a[href = "#home"]{
+    width:150px;
+    height:50px;
+    margin-right:100px
+}
+@media screen and (min-width:1146px) and (max-width:1258px){
+    *{
+        font-size:25px
+    }
+    h1{
+        font-size:30px
+    }
+    div.bottom{
+        width:250px
+    }
+    .ios , .mac{
+        width:250px;
+        text-align:center
+    }
+    .images{
+        display:flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+    .images > div , .logo > div{
+        display:flex;
+        flex-wrap: wrap;
+        align-content: center;
+        width:300px
+    }
+    .images > div > h1{
+        margin-bottom:30px
+    }
+    h5.Ios{
+        text-align:center;
+        width:1100px
+    }
+}
+@media screen and (max-width:1145px){
+    *{
+        font-size:30px
+    }
+    h1{
+        font-size:35px
+    }
+    div.bottom{
+        width:100%;
+        display:flex;
+        flex-wrap: wrap;
+        border-bottom:solid grey;
+        border-width:2px
+    }
+    div.end .bottom{
+        border:none;
+    }
+    .ios , .mac{
+        width:350px;
+        text-align:center;
+        margin-bottom:100px;
+    }
+    div.bottom > a {
+        width:350px;
+        height:90px;
+        margin-bottom:100px
+    } 
+    div.bottom > a:first-child {
+        margin-bottom:60px
+    }
+    .mac{
+        position:relative;
+        right:20px
+    }
+    .detaleis_1{
+        border-bottom:solid grey;
+        border-width:2px
+    }
+    .detaleis_1 div:first-child{
+        display: flex;
+        flex-wrap:wrap
+    }
+    .detaleis_1 div > h4{
+        margin-bottom:60px
+    }
+    img[alt = "computer_logo"]{
+        width:70%;
+        height:500px;
+        margin-left:100px
+    }
+    .end , .logo{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    .logo{
+        margin-right:40px
+    }
+    .logo > div {
+        width:100%
+    }
+    .images{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left:70px
+    }
+    .images_1 , .images_2 , .images_3{
+        width:100%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .images_3{
+        position:relative;
+        right:70px
+    }
+    h5.Ios{
+        margin-left:50px;
+        text-align:center;
+    }
+    .e_1{
+        margin-top:100px;
+        display:flex;
+        flex-wrap:nowrap;
+        align-content: flex-end;
+    }
+    .e_1 > div > a{
+        font-size:18px
+    }
+}

@@ -1,0 +1,138 @@
+body{
+    background-color:hsl(0, 0%, 98%);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.top , .bottom , .left , .right{
+    background-color:white;
+    width:300px;
+    height:200px;
+    border-top:solid;
+    border-radius:10px;
+    border-width:5px;
+    padding:25px;
+    box-shadow: 5px 5px 5px 5px rgb(236, 216, 216);
+    color:hsl(0, 2%, 60%);
+    display: block;
+}
+._header{
+    width:500px;
+    text-align:center;
+    color:hsl(0, 2%, 47%);
+    font-weight: lighter;
+    margin: 50px auto auto;
+    line-height:20px;
+}
+.P_header{
+    font-size:30px
+}
+h1{
+    color:rgb(104, 100, 100)
+}
+.center{
+    margin:auto
+}
+.top{
+    margin:70px auto auto;
+    border-color:hsl(0, 78%, 62%);
+}
+img[alt = "team_build"] , img[alt = "karma"]{
+    margin-top:40px;
+    float:right;
+}
+.bottom{
+    margin:30px auto 200px auto;
+    border-color:hsl(34, 97%, 64%);
+}
+.right{
+    float:left;
+    margin:-600px auto auto 100px;
+    border-color:hsl(180, 62%, 55%);
+}
+img[alt = "supervisor"]{
+    float:right;
+    position:relative;
+    bottom:-30px
+}
+.left{
+    margin:-600px 100px auto auto;
+    float:right;
+    border-color:hsl(212, 86%, 64%);
+}
+img[alt = "calculater"]{
+    float:right;
+    position:relative;
+    top:40px
+}
+@media screen and (max-width:1300px){
+body{
+    font-size:25px
+}
+._header{
+    width:700px;
+    height:200px;
+    line-height:30px;
+}
+.top , .bottom , .left , .right{
+    width:400px;
+    height:300px;
+}
+.right{
+    float:none;
+    margin:-1400px auto auto
+}
+img[alt = "supervisor"]{
+    margin-top:-670px;
+    position:relative;
+    left:70px;
+}
+.top{
+margin-top:500px
+}
+img[alt = "team_build"] , img[alt = "karma"]{
+    margin-top:40px;
+    float:right;
+}
+.bottom{
+    margin-top:70px
+}
+.left{
+    float:none;
+    margin: 910px auto 100px auto;
+}
+img[alt = "supervisor"]{
+    position:relative;
+    bottom:105px
+}
+}
+@media screen and (min-width:980px) and (max-width:1300px){
+    body{
+        font-size:35px
+    }
+    ._header{
+        width:900px;
+        height:200px;
+        line-height:60px
+    }
+    .top , .bottom , .left , .right{
+        width:500px;
+        height:400px;
+    }
+    .left{
+        margin-top:1250px;
+        margin-bottom:100px
+    }
+    .right{
+        margin-top:-1800px;
+    }
+    img[alt = "supervisor"]{
+        position:relative;
+        bottom:400px
+    }
+    .top{
+        margin-top:900px
+        }
+        .bottom{
+            margin-top:130px
+        }
+}

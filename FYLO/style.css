@@ -1,0 +1,286 @@
+*{
+    color:hsl(0, 0%, 100%)
+}
+a:active{
+    cursor: progress
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:hsl(218, 28%, 13%);
+    font-size: 16px;
+    margin:0px
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.header{
+    background-color:hsl(218, 28%, 15%)
+}
+.navbar-collapse{
+    margin-left:40%
+}
+li > a{
+    margin:5px
+}
+.info_header{
+    margin:30px;
+    padding:20px;
+    width:400px
+}
+.info_header > a{
+    text-decoration: none;
+    margin:20px;
+    color:hsl(0, 0%, 100%)
+}
+.info_header > a:hover{
+    color:rgb(69, 69, 240)
+} 
+
+.body{
+    background-color:hsl(218, 28%, 15%);
+    border-radius:10px;
+    width:100%;
+    padding:20px;
+    margin:auto;
+    margin-top:150px
+}
+img[alt = "image_body"]{
+    height:400px;
+    margin:auto;
+    margin-bottom:50px
+}
+._col_row{
+    margin-bottom:100px
+}
+.text_body{
+    margin-bottom:100px
+}
+.text_body h3 , .text_body p , .col h3 , .col p{
+    text-align: center
+}
+.text_body button{
+    margin:auto auto auto 35%;
+    text-align: center;
+    width:250px;
+    border-radius: 50px
+}
+.col img{
+    margin:auto
+}
+p.arrow{
+    width:200px
+}
+.arrow{
+    color:hsl(176, 68%, 64%);
+    text-decoration: underline
+}
+.arrow:hover{
+    color:hsl(176, 68%, 64%)
+}
+img[alt = "quote"]{
+    position:relative;
+    top:10px;
+    right:10px
+}
+._3-cards{
+    margin-top:50px;
+    margin-bottom:200px
+}
+.cards{
+    background-color: hsl(218, 28%, 15%);
+    color:hsl(0, 0%, 100%);
+    margin:auto
+}
+img[alt = "profile-1"]{
+    width:30px;
+    height:30px;
+    border-radius:50%
+}
+.col-sm{
+    width:300px
+}
+.position{
+    position:relative;
+    left:40px;
+    bottom:30px
+}
+.rectangle{
+    background-color:hsl(218, 28%, 23%);
+    border-radius:20px;
+    margin:auto;
+    padding:30px;
+    width: 700px;
+    position:relative;
+    bottom:130px;
+    text-align: center
+}
+.rectangle h1{
+    margin:auto
+}
+input[type = "text"]{
+    width:300px;
+    padding:15px;
+    border:none;
+    border-radius:30px;
+    margin-right:30px
+}
+input[type = "submit"]{
+    width:200px;
+    padding:15px;
+    border:none;
+    border-radius:30px
+}
+.end .header{
+    background-color:hsl(218, 28%, 13%);
+}
+.info{
+    margin:30px
+}
+.logo_info{
+    margin-top:200px !important
+}
+img[alt = "info"]{
+    display: block !important;
+    margin:0px !important
+}
+.element > div{
+    margin-right:50px !important;
+}
+.element .col a{
+    margin:20px
+}
+.col_end{
+    margin-left:30% !important;
+    margin-top:50px;
+}
+.border-radius{
+    border-radius:70px;
+    padding:10px
+}
+img[alt = "stay"]{
+    width:300px
+}
+@media screen and (max-width:516px){
+    .rectangle{
+        width:400px
+    }
+    input[type = "text"]{
+        width:200px
+    }
+    input[type = "submit"]{
+        width:102px !important
+    }
+}
+@media screen and (max-width:575px){
+    img[alt = "logo"]{
+        width:140px
+    }
+    .text_body button{
+        position:relative;
+        right:50px;
+    }
+    ._col_row .row >div{
+        margin:50px
+    }
+    .text_body h3, .text_body p, .col h3, .col p {
+         text-align: left; 
+    }
+    h1, h2, h3, h4, h5, h6 {
+        text-align: left;
+    }
+    .col p {
+        width: 200px
+    }
+    .element > div {
+        margin-bottom: 20px
+    }
+    .row{
+        width:300px
+    }
+    .stay{
+        width:200px !important
+    }
+    .input{
+        width:100%;
+        margin-right:0px;
+        display: block !important;
+    }
+    .rectangle{
+        width:80% !important;
+        flex-wrap: wrap;
+    }
+    input[type = "text"]{
+        width:100% !important;
+        display: block;
+        margin-bottom:20px
+    }
+    input[type = "submit"]{
+        width:100% !important
+    }
+    .middle_1{
+        flex-wrap: wrap !important;
+    }
+    img[alt = "stay"]{
+        width:300px !important
+    }
+    .col_end{
+    margin-left:0% !important
+}
+}
+@media screen and (max-width:616px){
+    .rectangle{
+        width:500px
+    }
+}
+@media screen and (max-width:650px){
+    img[alt = "stay"]{
+        width:100px
+    }
+}
+@media screen and (max-width:716px){
+    .rectangle{
+        width:600px
+    }
+}
+@media screen and (max-width:724px){
+    .text_body button{
+        margin:auto auto auto 30%;
+    }
+}
+@media screen and (max-width:750px){
+    img[alt = "stay"]{
+        width:150px
+    }
+}
+@media screen and (max-width:767px){
+    img[alt = "quote"]{
+        left:105px
+    }
+    img[alt = "image_body"]{
+        height:400px;
+        width:350px
+    }
+}
+@media screen and (max-width:991px){
+    .cards{
+        margin:auto
+    }
+    img[alt = "quote"]{
+        left:10px
+    }
+    .element .col a{
+        margin:20px
+    }
+}
+@media screen and (max-width:1199px){
+    .element .col a{
+        margin:10px
+    }
+    .info{
+        display:flex;
+        justify-content:center;
+        margin:auto;
+        text-align:center;
+    }
+}

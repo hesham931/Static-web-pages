@@ -1,0 +1,144 @@
+*{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+body{
+    background-color: hsl(214, 47%, 23%);
+}
+.header{
+    width:900px;
+    padding:30px;
+    text-align: center;
+    margin:auto;
+    margin-top:100px;
+    border:solid rgb(141, 139, 139) 2px;
+    border-radius: 10px;
+}
+img[alt = "originalLogo"]{
+    margin-right: 400px;
+}
+.scoreBox{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.triangle{
+    text-align: center;
+    margin:auto;
+    margin-top:100px;
+}
+img[alt = "scissors"],img[alt="scissors_1"],#icon_3 {
+    background-color: white;
+    padding: 50px;
+    border: solid #ec4343 15px;
+    border-radius: 100px;
+}
+img[alt = "scissors"]{
+    position: relative;
+    top:-350px
+}
+img[alt = "rock"] , img[alt="rock_1"] ,#icon_2{
+    background-color: white;
+    padding: 50px;
+    border: solid #deec22 15px;
+    border-radius: 100px;
+}
+img[alt = "rock"]{
+    position: relative;
+    top:-70px;
+}
+img[alt = "paper"],img[alt="paper_1"],#icon_1 {
+    background-color: white;
+    padding: 50px;
+    border: solid #4343ec 15px;
+    border-radius: 100px;
+}
+img[alt = "paper"]{
+    position: relative;
+    top:-350px
+}
+img[alt = "rock"],img[alt = "scissors"],img[alt = "paper"]{
+    cursor: pointer;
+}
+img[alt = "rock"]:hover,img[alt = "scissors"]:hover,img[alt = "paper"]:hover{
+    opacity:0.6
+}
+.game{
+    text-align: center;
+}
+#rules{
+    margin:20px;
+    float:right;
+    color:white;
+    padding:10px 50px 10px 50px;
+    border:solid white;
+    border-radius: 15px;
+}
+#rules:hover{
+    animation: rules 1s ease 0s 1 normal forwards;
+    cursor: pointer;
+}
+@keyframes rules {
+    100%{
+        background-color: white;
+        color:hsl(214, 47%, 23%);
+    }
+}
+.rulesBox{
+    background-color: white;
+    width:700px;
+    height:450px;
+    text-align: center;
+    margin:auto;
+    margin-top:100px;
+    border-radius: 20px;
+    position: fixed;
+    left:300px;
+    top:-50px;
+    z-index: 300;
+}
+.resultBox{
+    width:700px;
+    height:450px;
+    text-align: center;
+    margin:auto;
+    margin-top:500px;
+    border-radius: 20px;
+    position: fixed;
+    left:300px;
+    top:-50px;
+    z-index: 200;
+    color:white;
+}
+img[alt = "rules"]{
+    padding:50px;
+    width:600px;
+    height:400px
+}
+img[alt = "close"]{
+    margin-left:500px;
+}
+img[alt = "close"]:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+#partOneBox{
+    padding:10px
+}
+#playAgain{
+    color:white;
+    padding:10px 50px 10px 50px;
+    border:solid white;
+    border-radius: 15px;
+}
+#playAgain:hover{
+    animation: result 1s ease 0s 1 normal forwards;
+}
+@keyframes result {
+    100%{
+        background-color: white;
+        color:hsl(214, 47%, 23%);
+    }
+}

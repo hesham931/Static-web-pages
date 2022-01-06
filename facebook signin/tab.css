@@ -1,0 +1,62 @@
+body{
+    background-image: url('https://review.topmaxtech.net/content/uploads/elmstba.com_1457069811_7212.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div._1{
+    margin:5% 35%;
+    width:26%;
+}
+div._1 form input._0{
+    width:90%;
+    margin:3%;
+    padding:4%;
+    font-size:15px;
+    border-radius:10px 10px 0px 0px;
+    border:hidden;
+    border-bottom:solid rgb(105, 109, 112);
+    background-color:gainsboro;
+    border-width:1px;
+}
+div._1 label{
+    font-size:15px;
+    font-weight: 600;
+    color:#222324;
+}
+div._1 form fieldset{
+    background-color: gainsboro;
+    padding:8%;
+    border-radius:10px;
+    font-size:15px;
+    font-weight:bold;
+    border:hidden;
+}
+div._1 form select{
+    border:hidden;
+    border-radius:10px;
+    background-color: grey;
+    margin:4%;
+}
+div._1 form input._2{
+    margin-left:-13%;
+}
+div._1 label._2{
+    width:500%;
+    margin:4%;
+    border:solid rgb(105, 109, 112);
+    border-width:1px;
+    border-radius:3px;
+    padding:2% 10% 2% 2%;
+}
+@media screen and (max-width:980px){
+    body{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNJaVaL2cS_4aR9YX6E5R5ikk6v1pJhSAsPw&usqp=CAU');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    div._1{
+    margin:30% 25%;
+    width:55%;
+    height:80%;
+}
+}

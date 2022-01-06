@@ -1,0 +1,76 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin:0px;
+    padding:0px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+body{
+    background-color: rgb(53, 52, 52);
+}
+#logo{
+    margin:50px;
+    color:white;
+}
+#logo small{
+    font-size: 16px;
+    color:rgba(202, 200, 200, 0.692);
+}
+#formBody,.listBody{
+    margin:100px;
+    background-color: rgb(187, 184, 184);
+    padding:30px;
+    border-radius: 10px;
+}
+.listBody , .listBody p{
+    font-family: 'Oxygen', sans-serif;
+}
+.listBody{
+    animation: showList 5s ease 0s 1 normal forwards;
+    position: relative;
+}
+@keyframes showList {
+    0%{
+        left:-1000px;
+        opacity:0.5;
+    }
+    100%{
+        left:0px;
+        opacity:1
+    }
+}
+#formBody form{
+    margin:50px
+}
+#des,#selectGroup,#response{
+    text-indent: 10px;
+    background-color: rgb(247, 247, 247);
+    border:none;
+    font-size: 18px;
+    width:100%;
+    padding:15px;
+    color: rgb(58, 59, 58);
+    border-radius: 15px;
+}
+input[type="submit"]{
+    width:100%;
+}
+input[type="submit"],button{
+    padding:10px;
+    border-radius: 100px;
+    border:none;
+    background-color: teal;
+    color:white;
+    margin:20px;
+    border:solid teal 10px;
+}
+input[type="submit"]:hover,button:hover{
+    animation: next_btn 2s normal 0s 1 ease forwards;
+}
+@keyframes next_btn{
+    0%{opacity: 0.5;}
+    100%{opacity: 1;background-color: white;color:teal;}
+}
+#id{
+    letter-spacing: 10px;
+}

@@ -1,0 +1,186 @@
+body{
+    font-size:20px;
+    font-family: 'Patrick Hand', cursive
+}
+.top{
+    height:400px;
+    background-image: url('header1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: .8;
+    margin-bottom:50px
+}
+.header-text{
+    font-size:50px;
+    margin-top:100px;
+    padding:5px
+}
+button[type = "button"]{
+    margin-left:10px
+}
+.middle{
+    width:auto;
+    box-shadow: 2px 2px 2px 2px rgb(218, 216, 216);
+    border: solid none;
+    border-radius: 4px
+}
+.middle h3{
+    padding:10px
+}
+.cards{
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+    width:100%
+}
+.card{
+    width: 50%;
+    margin:20px
+}
+.final_card{
+    width:100%;
+    margin:auto;
+    margin-bottom:3%
+}
+.middle_2{
+    padding:20px
+}
+img[alt = "heart"]{
+    width:auto
+}
+.middle_3{
+    height:700px;
+    background-color: rgb(167, 166, 166);
+    font-size:25px;
+    margin:auto;
+    margin-bottom:50px;
+    margin-top:50px
+}
+iframe{
+    width:900px;
+    height:600px;
+    margin:auto
+}
+
+/********************************************/
+.end{
+    padding:20px
+}
+.end img{
+    width:30px;
+    height:30px
+}
+a[href = "#top"] {
+    text-decoration: none
+}
+input[type = "text"]{
+    width:300px;
+    height:50px;
+    background-color: rgb(231, 224, 224);
+    border:none;
+    border-radius: 10px
+}
+/**********************************************/
+.end_right{
+    position:relative;
+    bottom:500px;
+    padding:30px;
+    width:600px;
+    height:70px;
+    font-size:30px;
+    margin-bottom:-50px
+}
+.end_left{
+    margin:0px
+}
+.sub{
+    width:100px
+}
+.social{
+    width:100%
+}
+.autharized {
+    width:100%;
+    text-align: center  
+}
+.autharized a{
+    text-decoration: none
+}
+/**************************************/
+@media screen and (max-width:991px){
+.card{
+    margin:auto;
+    margin-bottom:40px
+}
+.cards{
+    display: block !important
+}
+.final_card{
+    width:50%
+}
+/********************************************/
+.end{
+    height:1300px
+}
+.end_left{
+    width:300px;
+    float:none !important;
+    margin:auto
+}
+.end_left > img {
+    margin:auto
+}
+.end_right{
+    width:340px;
+    float:none !important;
+    margin-bottom:600px;
+    bottom:0px
+}
+}
+@media screen and (max-width:805px){
+.card{
+    width:90%;
+    margin:auto;
+    margin-bottom:40px
+}
+.final_card{
+    width:90%
+}
+.middle{
+    height:4100px !important
+}
+.end{
+    height:1300px
+}
+.end_left{
+    width:300px;
+    float:none !important;
+    margin:auto
+}
+.end_right{
+    width:340px;
+    float:none !important;
+    margin-bottom:600px;
+    bottom:0px
+}
+}
+@media screen and (max-width:660px){
+input[type = "text"]{
+    width:250px
+}
+.end{
+    height:1300px
+}
+.end_left{
+    width:300px;
+    float:none !important;
+    margin:auto
+}
+.end_right{
+    width:340px;
+    float:none !important;
+    margin-bottom:600px;
+    bottom:0px
+}
+}
